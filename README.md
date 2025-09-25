@@ -31,8 +31,7 @@ To simplify code security and debugging for everyone, making secure coding acces
 
 
 ## 📁 Project Structure
-"""
-ط''
+```
 ai_code_scanner/
 │
 ├── README.md
@@ -58,23 +57,25 @@ ai_code_scanner/
 ├── init.py
 ├── test_scanner.py # tests for scanner modules
 └── test_chatbot.py # tests for chatbot functionality
-"""
+```
+
 Installation & Setup
+```
 git clone [(https://github.com/FarisRaafat/Digitopia)]
 cd ai_code_scanner
 python -m venv venv
 source venv/bin/activate        # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 Usage
-
+```
 To run a scan and then interact with the chatbot:
 
 python app.py --path path_to_your_code_file.py
 
 
 You can also integrate it into a web interface or GUI later.
-
+```
 🛣️ Roadmap & Future Plans
 
  Support for scanning multiple files / entire projects
