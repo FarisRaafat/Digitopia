@@ -31,7 +31,8 @@ To simplify code security and debugging for everyone, making secure coding acces
 
 
 ## 📁 Project Structure
-"
+'''
+ط''
 ai_code_scanner/
 │
 ├── README.md
@@ -58,7 +59,7 @@ ai_code_scanner/
 ├── test_scanner.py # tests for scanner modules
 └── test_chatbot.py # tests for chatbot functionality
 ط
-"
+'''
 
 Installation & Setup
 git clone [(https://github.com/FarisRaafat/Digitopia)]
