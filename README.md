@@ -59,7 +59,7 @@ ai_code_scanner/
 └── test_chatbot.py # tests for chatbot functionality
 ```
 
-Installation & Setup
+## Installation & Setup
 ```
 git clone [(https://github.com/FarisRaafat/Digitopia)]
 cd ai_code_scanner
@@ -76,7 +76,7 @@ python app.py --path path_to_your_code_file.py
 
 You can also integrate it into a web interface or GUI later.
 ```
-🛣️ Roadmap & Future Plans
+## 🛣️ Roadmap & Future Plans
 
  Support for scanning multiple files / entire projects
 
