@@ -79,11 +79,11 @@ You can also integrate it into a web interface or GUI later.
 ```
 ## 👥 Authors
 
--**Faris Raafat**
--**Nermeen elhendy**
--**Eslam ahmed**
--**Samaa hamayel**
--**Ahmed mahmoud**
+-**Faris Raafat**  
+-**Nermeen elhendy**  
+-**Eslam ahmed**  
+-**Samaa hamayel**  
+-**Ahmed mahmoud**  
 
   
 ## 🛣️ Roadmap & Future Plans
