@@ -36,31 +36,31 @@ ai_code_scanner/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── app.py                  # entry point to run the system
+├── app.py # entry point to run the system
 │
 ├── scanner/
-│   ├── __init__.py
-│   ├── code_scanner.py     # logic for scanning code
-│   ├── bug_detector.py     # module to detect general bugs
-│   └── vulnerability_db.py # database/rules of known vulnerabilities
+│ ├── init.py
+│ ├── code_scanner.py # logic for scanning code
+│ ├── bug_detector.py # module to detect general bugs
+│ └── vulnerability_db.py # database/rules of known vulnerabilities
 │
 ├── chatbot/
-│   ├── __init__.py
-│   └── assistant.py        # chatbot logic: dialog + suggestions
+│ ├── init.py
+│ └── assistant.py # chatbot logic: dialog + suggestions
 │
 ├── utils/
-│   ├── __init__.py
-│   └── file_handler.py     # helpers: read files, preprocess, etc.
+│ ├── init.py
+│ └── file_handler.py # helpers: read files, preprocess, etc.
 │
 └── tests/
-    ├── __init__.py
-    ├── test_scanner.py     # tests for scanner modules
-    └── test_chatbot.py     # tests for chatbot functionality
+├── init.py
+├── test_scanner.py # tests for scanner modules
+└── test_chatbot.py # tests for chatbot functionality
 
 
 
 Installation & Setup
-git clone https://github.com/FarisRaafat/ai_code_scanner.git
+git clone [(https://github.com/FarisRaafat/Digitopia)]
 cd ai_code_scanner
 python -m venv venv
 source venv/bin/activate        # on Windows: venv\Scripts\activate
