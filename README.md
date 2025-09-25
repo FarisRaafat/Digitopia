@@ -71,11 +71,21 @@ pip install -r requirements.txt
 ```
 To run a scan and then interact with the chatbot:
 
-python app.py --path path_to_your_code_file.py
+python app.py --path example.py
 
 
 You can also integrate it into a web interface or GUI later.
+
 ```
+## 👥 Authors
+
+-Faris Raafat
+-Nermeen elhendy
+-Eslam ahmed
+-Samaa hamayel
+- Ahmed mahmoud
+
+  
 ## 🛣️ Roadmap & Future Plans
 
  Support for scanning multiple files / entire projects
