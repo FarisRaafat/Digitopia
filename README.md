@@ -30,7 +30,8 @@ Many students and early-stage startups struggle with identifying and fixing issu
 To simplify code security and debugging for everyone, making secure coding accessible and actionable using the power of AI.
 
 
-📁 Project Structure
+## 📁 Project Structure
+"
 ai_code_scanner/
 │
 ├── README.md
@@ -56,8 +57,8 @@ ai_code_scanner/
 ├── init.py
 ├── test_scanner.py # tests for scanner modules
 └── test_chatbot.py # tests for chatbot functionality
-
-
+ط
+"
 
 Installation & Setup
 git clone [(https://github.com/FarisRaafat/Digitopia)]
