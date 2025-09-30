@@ -1,42 +1,86 @@
-﻿# Semgrep Security Assistant
+Digitopia
+this account show our team project in Digitopia competition. AI-Code Scanner & Vulnerability Fixer
 
-This project provides a Streamlit GUI to run Semgrep on an uploaded file or a zipped project, visualize the results, and chat with a Gemini-powered assistant (via LangChain) to get secure coding recommendations.
+This project is an AI-driven system designed to scan source code, detect bugs and security vulnerabilities, and provide practical, easy-to-follow solutions to fix them.
 
-## Setup
+WHY THIS PROJECT?
+Many students and early-stage startups struggle with identifying and fixing issues in their code, especially security-related ones. This project aims to make the process:
 
-1. Create and activate a virtual environment:
+Automated – Quickly scans your codebase for bugs and vulnerabilities.
 
-`powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-`
+Intelligent – Offers AI-powered suggestions to resolve issues effectively.
 
-2. Install dependencies:
+Interactive – Includes a smart chatbot assistant that guides you step-by-step through fixing the problems.
 
-`powershell
+KEY FEATURES
+✅ Automatic scanning for bugs and security vulnerabilities.
+
+💡 AI-generated insights and practical code fixes.
+
+💬 Smart chatbot to assist with debugging and secure coding.
+
+🌐 Beginner-friendly – Ideal for students and startups with no deep security background.
+
+GOAL
+To simplify code security and debugging for everyone, making secure coding accessible and actionable using the power of AI.
+
+📁 Project Structure
+ai_code_scanner/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── app.py # entry point to run the system
+│
+├── scanner/
+│ ├── init.py
+│ ├── code_scanner.py # logic for scanning code
+│ ├── bug_detector.py # module to detect general bugs
+│ └── vulnerability_db.py # database/rules of known vulnerabilities
+│
+├── chatbot/
+│ ├── init.py
+│ └── assistant.py # chatbot logic: dialog + suggestions
+│
+├── utils/
+│ ├── init.py
+│ └── file_handler.py # helpers: read files, preprocess, etc.
+│
+└── tests/
+├── init.py
+├── test_scanner.py # tests for scanner modules
+└── test_chatbot.py # tests for chatbot functionality
+Installation & Setup
+git clone [(https://github.com/FarisRaafat/Digitopia)]
+cd ai_code_scanner
+python -m venv venv
+source venv/bin/activate        # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
-`
+Usage
+To run a scan and then interact with the chatbot:
 
-3. Configure API keys in config.py:
+python app.py --path example.py
 
-- SEMGREP_APP_TOKEN for Semgrep authentication
-- GEMINI_API_KEY for Gemini (Google Generative AI)
 
-## Run the app
+You can also integrate it into a web interface or GUI later.
 
-`powershell
-streamlit run app.py
-`
+👥 Authors
+-Faris Raafat
+-Nermeen elhendy
+-Eslam ahmed
+-Samaa hamayel
+-Ahmed mahmoud
 
-## How it works
+🛣️ Roadmap & Future Plans
+Support for scanning multiple files / entire projects
 
-- Semgrep is invoked via the CLI with --config=auto, outputting JSON which is parsed into a DataFrame with columns [file, line, rule, message, severity].
-- Visualizations show findings per rule (bar chart) and severity distribution (pie chart).
-- The chatbot uses LangChain with Gemini to provide concise secure coding recommendations based on the Semgrep findings.
+Add dynamic analysis (runtime / fuzz testing)
 
-## APIs/Libraries
+Add more vulnerability rules and support for more programming languages
 
-- Semgrep: static analysis engine (semgrep CLI)
-- Pandas/Matplotlib: data handling and visualization
-- Streamlit: web UI
-- LangChain + Gemini: LLM-based assistant for remediation guidance
+Build a web dashboard to visualize scan results
+
+Integrate with CI/CD pipelines (GitHub Actions, GitLab CI, etc.)
+
+Improve chatbot intelligence: context retention, code suggestions, interactive fixes
+
