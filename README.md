@@ -63,7 +63,7 @@ pip install -r requirements.txt'''
 ```
 To run a scan and then interact with the chatbot:
 ```
-python app.py --path example.py
+python app.py --path app.py
 
 You can also integrate it into a web interface or GUI later.
 ```
@@ -86,6 +86,7 @@ Build a web dashboard to visualize scan results
 Integrate with CI/CD pipelines (GitHub Actions, GitLab CI, etc.)
 
 Improve chatbot intelligence: context retention, code suggestions, interactive fixes
+
 
 
 
