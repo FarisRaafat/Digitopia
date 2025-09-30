@@ -1,4 +1,4 @@
-#Digitopia
+# Digitopia
 this account show our team project in Digitopia competition. AI-Code Scanner & Vulnerability Fixer
 
 This project is an AI-driven system designed to scan source code, detect bugs and security vulnerabilities, and provide practical, easy-to-follow solutions to fix them.
@@ -12,7 +12,7 @@ Intelligent – Offers AI-powered suggestions to resolve issues effectively.
 
 Interactive – Includes a smart chatbot assistant that guides you step-by-step through fixing the problems.
 
-#KEY FEATURES
+# KEY FEATURES
 ✅ Automatic scanning for bugs and security vulnerabilities.
 
 💡 AI-generated insights and practical code fixes.
@@ -21,10 +21,10 @@ Interactive – Includes a smart chatbot assistant that guides you step-by-step 
 
 🌐 Beginner-friendly – Ideal for students and startups with no deep security background.
 
-#GOAL
+# GOAL
 To simplify code security and debugging for everyone, making secure coding accessible and actionable using the power of AI.
 
-#📁 Project Structure
+# 📁 Project Structure
 '''ai_code_scanner/
 │
 ├── README.md
@@ -50,7 +50,7 @@ To simplify code security and debugging for everyone, making secure coding acces
 ├── init.py
 ├── test_scanner.py # tests for scanner modules
 └── test_chatbot.py # tests for chatbot functionality'''
-#Installation & Setup
+# Installation & Setup
 '''git clone [(https://github.com/FarisRaafat/Digitopia)]
 cd ai_code_scanner
 python -m venv venv
@@ -64,14 +64,14 @@ python app.py --path example.py
 '''
 You can also integrate it into a web interface or GUI later.
 
-#👥 Authors
+# 👥 Authors
 -Faris Raafat
 -Nermeen elhendy
 -Eslam ahmed
 -Samaa hamayel
 -Ahmed mahmoud
 
-#🛣️ Roadmap & Future Plans
+# 🛣️ Roadmap & Future Plans
 Support for scanning multiple files / entire projects
 
 Add dynamic analysis (runtime / fuzz testing)
@@ -83,5 +83,6 @@ Build a web dashboard to visualize scan results
 Integrate with CI/CD pipelines (GitHub Actions, GitLab CI, etc.)
 
 Improve chatbot intelligence: context retention, code suggestions, interactive fixes
+
 
 
