@@ -25,7 +25,8 @@ Interactive – Includes a smart chatbot assistant that guides you step-by-step 
 To simplify code security and debugging for everyone, making secure coding accessible and actionable using the power of AI.
 
 # 📁 Project Structure
-'''ai_code_scanner/
+```
+ai_code_scanner/
 │
 ├── README.md
 ├── requirements.txt
@@ -49,21 +50,23 @@ To simplify code security and debugging for everyone, making secure coding acces
 └── tests/
 ├── init.py
 ├── test_scanner.py # tests for scanner modules
-└── test_chatbot.py # tests for chatbot functionality'''
+└── test_chatbot.py # tests for chatbot functionality
+```
 # Installation & Setup
-'''git clone [(https://github.com/FarisRaafat/Digitopia)]
+```
+git clone [(https://github.com/FarisRaafat/Digitopia)]
 cd ai_code_scanner
 python -m venv venv
 source venv/bin/activate        # on Windows: venv\Scripts\activate
 pip install -r requirements.txt'''
 #Usage
-'''To run a scan and then interact with the chatbot:
-
+```
+To run a scan and then interact with the chatbot:
+```
 python app.py --path example.py
 
-'''
 You can also integrate it into a web interface or GUI later.
-
+```
 # 👥 Authors
 -Faris Raafat
 -Nermeen elhendy
@@ -83,6 +86,7 @@ Build a web dashboard to visualize scan results
 Integrate with CI/CD pipelines (GitHub Actions, GitLab CI, etc.)
 
 Improve chatbot intelligence: context retention, code suggestions, interactive fixes
+
 
 
 
